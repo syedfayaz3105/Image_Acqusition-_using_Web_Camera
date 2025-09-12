@@ -1,4 +1,4 @@
-# Image_Acqusition-_using_Web_Camera
+# EX 02: Image_Acqusition-_using_Web_Camera
 
 ## Aim:
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
@@ -32,7 +32,7 @@ End the program and close the output video window by pressing 'q'.
 
 ## Program:
 ``` Python
-### Developed By: FARHANA H
+### Developed By: Farhana H
 ### Register No: 212223230057
 
 ## i) Write the frame as JPG file
@@ -50,7 +50,12 @@ plt.imshow(captured_image[:,:,::-1])
 plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
+```
+<img width="709" height="528" alt="Screenshot 2025-09-12 213453" src="https://github.com/user-attachments/assets/5beec89d-f4ab-4ce5-bec6-11c647982841" />
 
+
+
+```
 ## ii) Display the video
 cap = cv2.VideoCapture(0)
 
@@ -66,7 +71,10 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
+```
+<img width="666" height="499" alt="Screenshot 2025-09-12 213459" src="https://github.com/user-attachments/assets/2c334cbd-3aa2-40c0-8bb4-ec688b567f3e" />
 
+```
 ## iii) Display the video by resizing the window
 cap = cv2.VideoCapture(0)
 
@@ -83,7 +91,11 @@ for i in range(50):
     time.sleep(0.05)
 
 cap.release()
+```
 
+<img width="430" height="501" alt="Screenshot 2025-09-12 213508" src="https://github.com/user-attachments/assets/62e97fa1-2df2-4fdf-92a4-71ffae5dcf0e" />
+
+```
 ## iv) Rotate and display the video
 cap = cv2.VideoCapture(0)
 
@@ -101,15 +113,10 @@ for i in range(50):
 
 cap.release()
 ```
-## Output:
+<img width="417" height="495" alt="Screenshot 2025-09-12 213515" src="https://github.com/user-attachments/assets/7a09cad3-cf8d-4a9b-8a93-45be3579c934" />
 
-### i) Write the frame as JPG image
-
-### ii) Display the video
-
-### iii) Display the video by resizing the window
-
-### iv) Rotate and display the video
+```
+```
 
 ## Result:
 Thus the image is accessed from webcamera and displayed using openCV.
