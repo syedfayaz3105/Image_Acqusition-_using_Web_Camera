@@ -1,4 +1,6 @@
-# EX 02: Image_Acqusition-_using_Web_Camera
+## EX 02: Image_Acqusition-_using_Web_Camera
+## name: Farhana H
+## reg.no: 212223230057
 
 ## Aim:
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
